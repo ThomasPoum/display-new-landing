@@ -110,7 +110,7 @@ export function Header() {
             </div>
             <Button href="/register" color="blue">
               <span>
-              Réserver une démo
+              Booker une démo de 30min
               </span>
             </Button>
             <div className="-mr-1 md:hidden">
