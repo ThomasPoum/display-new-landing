@@ -28,8 +28,7 @@ export function Hero() {
         en un temps record.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Most bookkeeping software is accurate, but hard to use. We make the
-        opposite trade-off, and hope you don’t get audited.
+        Faîtes des réponses aux appels d'offre une formalité pour vous concentrer sur votre coeur de votre métier.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Réserver une démo</Button>

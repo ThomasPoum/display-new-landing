@@ -6,53 +6,129 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'A quoi m’engage une démonstration de l’outil ?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'La démonstration de l’outil n’engage à rien. Elle vous permet de découvrir ce que nous faisons et de comprendre en quoi l’application peut vous aider au quotidien.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Combien de temps dois-je prévoir pour une démonstration ?',
+      answer: 'Le temps de démonstration est variable. Une démonstration se déroule en général en 3 temps : 1) discussion sur vos méthodes actuelles 2) démonstration de l’outil 3) discussion ouverte sur l’outil.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'Pourrai-je avoir, à l’issue de la présentation, des codes d’accès pour essayer l’application de mon côté ?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Bien sûr, après la démonstration et si cela vous intéresse, nous vous transmettrons des identifiants d’accès en mode "bac à sable", avec plusieurs réseaux de test et bien évidemment la possibilité d’y intégrer vos réseaux réels et futurs.',
     },
-  ],
-  [
+
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'Qui peut utiliser cette application ?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'Cette application est destinée à toute personne en charge de répondre aux appels d’offre. Selon la taille de l’entreprise, il peut s’agir du dirigeant directement, de l’équipe développement ou encore de l’équipe d’exploitation.',
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'Je suis un professionnel AMO, puis-je utiliser votre outil dans l’accompagnement de mes clients ?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'Bien sûr. Contactez nous pour en savoir plus.',
     },
     {
       question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+        'Je suis une collectivité, puis-je utiliser votre outil ?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'Bien sûr. Contactez nous pour en savoir plus.',
     },
+
+    {
+      question: 'Cette application est-elle destinée à du transport urbain ou inter-urbain ?',
+      answer:
+        'Cette application a été développée pour pouvoir répondre à ces deux typologies de transport.',
+    },
+    {
+      question: 'Puis-je répondre à plusieurs appels d’offre simultanément ?',
+      answer: 'Oui, il n’y a pas de restriction sur le nombre d’appels d’offre en simultanée.',
+    },
+
   ],
   [
+
     {
-      question: 'How do you generate reports?',
+      question: 'Suis-je limité en nombre de véhicules ou de conducteurs par appel d’offre ?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'Non, il n’existe pas de limitation de ce type.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'J’ai des règles de coupures ou autres spécifiques à mon entreprise, est-il possible de les prendre en compte ?',
+      answer:
+        'Oui, nous avons développé un système assez ouvert pour prendre en compte le plus de cas possibles. Contactez-nous s’il y a des points bloquants.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'Je ne réponds pas cette année à des appels d’offre mais j’aimerais utiliser votre plateforme pour optimiser mon réseau existant, est-ce possible ?',
+      answer: 'Evidemment, notre application peut permettre d’optimiser n’importe quel réseau : un réseau que vous souhaitez gagner ou un réseau que vous exploitez déjà.',
+    },
+    {
+      question: 'J’ai un GTFS de mon réseau, puis-je l’importer ?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Cette option n’est pas encore disponible.',
+    },
+    {
+      question: 'Puis-je exporter en GTFS un réseau graphiqué avec l’application ?',
+      answer:
+        'Cette option n’est pas encore disponible.',
+    },
+    {
+      question: 'Est-il possible de se faire assister par vos équipes dans la réponse à appel d’offre ?',
+      answer: 'Non, nous ne proposons pas d’offre d’accompagnement.',
+    },
+    {
+      question: 'Où sont hébergés mes données ?',
+      answer:
+        'Vos données sont hébergées sont un serveur français situé dans la région parisienne.',
+    },
+    {
+      question: 'Puis-je récupérer mes données si je décide de ne plus utiliser la plateforme ?',
+      answer:
+        'Toutes les données que vous produisez sur notre application vous appartiennent et sont disponibles à tout moment en téléchargement.',
+    },
+
+  ],
+  [
+
+    {
+      question: 'Si je décide de quitter la plateforme, mes données sont-elles supprimées ?',
+      answer: 'Si vous quittez la plateforme, et à réception de votre demande, nous supprimons définitivement l’intégralité de vos données de nos serveurs.',
+    },
+    {
+      question: 'L’application est-elle appelée à évoluer ?',
+      answer:
+        'L’application est aujourd’hui en beta, c’est-à-dire qu’elle est en cours de développement et en est plutôt à une version initiale. Elle va donc évoluer fortement dans les prochaines semaines et mois. Des fonctions vont disparaître, d’autres être intégrées.',
+    },
+    {
+      question: 'Combien coûte un abonnement à Display ?',
+      answer:
+        'Pour l’instant, ce point n’est pas défini. L’application est encore en beta et nous cherchons dans un premier temps à travailler avec nos utilisateurs cibles pour la rendre la plus pertinente possible.',
+    },
+    {
+      question: 'Je suis une startup du transport, existe-t-il un tarif spécifique ?',
+      answer: 'A date, il n’y a pas de tarif spécifique.',
+    },
+    {
+      question: 'Je suis une entreprise technologique du transport, existe-t-il un moyen de se connecter à votre application via une API ?',
+      answer:
+        'Non, il n’existe pas encore d’API.',
+    },
+    {
+      question: 'Mes données sont-elles récupérées à des fins d’analyse ?',
+      answer:
+        'Oui, cela est possible. Ceci dit, il convient ici de préciser que dans ce cas, vos données sont anonymisées.',
+    },
+    {
+      question: 'Ce projet est-il lié à un groupe ou à une entreprise spécifique du transport ?',
+      answer: 'Non, ce projet est issu de l’expérience d’anciens du monde du transport mais n’est en relation avec aucun groupe ou aucune entreprise du secteur.',
+    },
+    {
+      question: 'Votre projet m’intéresse, comment participer ?',
+      answer:
+        'Connectez-nous par email au xxx@xxxx.xx afin de faire connaissance.',
     },
   ],
 ]
@@ -78,11 +154,10 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            Questions Fréquemment Posées
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            Si vous ne trouvez pas les réponses à vos questions, contactez par email nos équipes.
           </p>
         </div>
         <ul

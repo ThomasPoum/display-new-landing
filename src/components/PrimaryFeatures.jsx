@@ -9,32 +9,37 @@ import screenshotExpenses from '@/images/screenshots/expenses.png'
 import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import screenshotPlan4 from '@/images/screenshots/plan4.png'
+import screenshotFh1 from '@/images/screenshots/fh1.png'
+import screenshotCarto1 from '@/images/screenshots/carto1.png'
+import screenshotExport2 from '@/images/screenshots/export4.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Fiches horaires',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+      "Construisez-les en quelques clics à partir des éléments de l'appel d'offre. Arrêtez de vous battre avec les GTFS.",
+    image: screenshotFh1,
   },
   {
-    title: 'Claim expenses',
+    title: 'Cartographie intégrée',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+      "Travaillez vos trâcés rapidement et une fois pour toutes. Laissez l'application faire le reste.",
+    image: screenshotCarto1,
   },
   {
-    title: 'VAT handling',
+    title: 'Planning ',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+      "Construisez votre planning en vous laissant aider par l'application et en suivant en temps réel les indicateurs de performance.",
+    image: screenshotPlan4,
   },
   {
-    title: 'Reporting',
+    title: 'Export des données',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'Exportez vos unités d\'oeuvres de façon standardisée en quelques instants pour les intégrer dans votre réponse.',
+    image: screenshotExport2,
   },
+  
 ]
 
 export function PrimaryFeatures() {
@@ -72,11 +77,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Tout ce qu'il vous faut pour répondre aux appels d'offre.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Générez vos unités d'oeuvre de A à Z dans un outil simple et complet.
           </p>
         </div>
         <Tab.Group

@@ -7,14 +7,17 @@ import { Container } from '@/components/Container'
 import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import screenshotHlps from '@/images/screenshots/hlps2.png'
+import screenshotEPM from '@/images/screenshots/epm2.png'
+import screenshotStats from '@/images/screenshots/stats2.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Haut-le-pied',
+    summary: 'Grâce à la cartographie, déléguez le travail sur les HLPs.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
-    image: screenshotProfitLoss,
+      'L’application construit pour vous votre dictionnaire des HLPs, avec des données toujours à jour et sans action spécifique de votre part.',
+    image: screenshotHlps,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -44,12 +47,12 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'EPM mode',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Trouvez le meilleur emplacement pour un segment.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
-    image: screenshotInventory,
+      'Le robot est là pour vous faciliter le travail. Bénéficiez de sa puissance de calcul et de ses solutions en quelques fractions de seconde.',
+    image: screenshotEPM,
     icon: function InventoryIcon() {
       return (
         <>
@@ -72,12 +75,12 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Statistiques',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Chaque modification sur le planning a un impact.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
-    image: screenshotContacts,
+      'Mesurer cet impact avec précision est vital pour la pertinence finale de votre travail. Le robot s’occupe de ces calculs à la volée.',
+    image: screenshotStats,
     icon: function ContactsIcon() {
       return (
         <>
@@ -216,11 +219,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            Déléguez au robot le travail du robot.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            Sur un appel d'offre, beaucoup de tâches sont répétitives et à faible valeur ajoutée, laissez l'application vous en décharger.
           </p>
         </div>
         <FeaturesMobile />
