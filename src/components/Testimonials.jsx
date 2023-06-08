@@ -91,7 +91,7 @@ export function Testimonials() {
             Témoignages.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Facilité d'adoption, résultats concrets et rapides. Nos utilisateurs en parlent mieux que nous.
+            Facilité d’adoption, résultats concrets et rapides. Nos utilisateurs en parlent mieux que nous.
           </p>
         </div>
         <ul

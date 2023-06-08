@@ -222,7 +222,7 @@ export function SecondaryFeatures() {
             Déléguez au robot le travail du robot.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Sur un appel d'offre, beaucoup de tâches sont répétitives et à faible valeur ajoutée, laissez l'application vous en décharger.
+            Sur un appel d’offre, beaucoup de tâches sont répétitives et à faible valeur ajoutée, laissez l’application vous en décharger.
           </p>
         </div>
         <FeaturesMobile />
