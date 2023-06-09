@@ -9,10 +9,11 @@ import screenshotExpenses from '@/images/screenshots/expenses.png'
 import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
-import screenshotPlan4 from '@/images/screenshots/plan4.png'
-import screenshotFh1 from '@/images/screenshots/fh1.png'
-import screenshotCarto1 from '@/images/screenshots/carto1.png'
-import screenshotExport2 from '@/images/screenshots/export4.png'
+import screenshotPlan4 from '@/images/screenshots/plan5.png'
+import screenshotFh1 from '@/images/screenshots/line.jpg'
+import screenshotCarto1 from '@/images/screenshots/carto9.jpg'
+import screenshotExport2 from '@/images/screenshots/export2.jpg'
+
 
 const features = [
   {
@@ -77,10 +78,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Tout ce qu’il vous faut pour répondre aux appels d’offre.
+            Générez vos unités d’oeuvre de A à Z dans un outil simple et complet.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Générez vos unités d’oeuvre de A à Z dans un outil simple et complet.
+            Tout ce qu’il vous faut pour répondre aux appels d’offre.
           </p>
         </div>
         <Tab.Group

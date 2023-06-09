@@ -28,7 +28,7 @@ export function Hero() {
         en un temps record.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Faites des réponses aux appels d’offre une formalité pour vous concentrer sur votre coeur de votre métier.
+        Faîtes des réponses aux appels d’offre de transport public une formalité pour vous concentrer sur votre coeur de votre métier.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Réserver une démo</Button>
@@ -42,11 +42,11 @@ export function Hero() {
           >
             <path d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z" />
           </svg>
-          <span className="ml-3">Le réseau Noirmoutier optimisé en 30min</span>
+          <span className="ml-3">Voir un réseau optimisé en 30min</span>
         </Button>
       </div>
       <div className="mt-36 lg:mt-44">
-        <p className="font-display text-base text-slate-900">
+        {/* <p className="font-display text-base text-slate-900">
           Trusted by these six companies so far
         </p>
         <ul
@@ -78,7 +78,7 @@ export function Hero() {
               </ul>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </Container>
   )
