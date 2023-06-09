@@ -17,7 +17,7 @@ export function OneTestimonial() {
         </div>
         <blockquote className="mt-10 text-xl font-semibold leading-8 tracking-tight text-gray-900 sm:text-2xl sm:leading-9">
           <p>
-          "Cette application nous a permis de gagner un temps important lors des réponses à appel d’offre. En plus, même avec une équipe réduite, le travail abattu par l’application permet de se positionner sur des appels d’offre plus importants."
+          "Cette application nous a permis de gagner un temps important lors des réponses à appel d&apos;offre. En plus, même avec une équipe réduite, le travail abattu par l&apos;application permet de se positionner sur des appels d&apos;offre plus importants."
           </p>
         </blockquote>
             <figcaption className="mt-10 flex items-center gap-x-6">
