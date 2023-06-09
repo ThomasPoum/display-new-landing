@@ -28,7 +28,7 @@ export default function Register() {
             </p>
           </div>
           <InlineWidget 
-            url="https://calendly.com/display-saas/30min"
+            url="https://calendly.com/display-app/demo-30min"
             pageSettings={{
               hideEventTypeDetails: true,
               hideLandingPageDetails: true,

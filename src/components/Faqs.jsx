@@ -6,9 +6,9 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'A quoi m’engage une démonstration de l’outil ?',
+      question: 'A quoi m’engage une démonstration de l’application ?',
       answer:
-        'La démonstration de l’outil n’engage à rien. Elle vous permet de découvrir ce que nous faisons et de comprendre en quoi l’application peut vous aider au quotidien.',
+        'La démonstration de l’application n’engage à rien. Elle vous permet de découvrir ce que nous faisons et de comprendre en quoi l’application peut vous aider au quotidien.',
     },
     {
       question: 'Combien de temps dois-je prévoir pour une démonstration ?',

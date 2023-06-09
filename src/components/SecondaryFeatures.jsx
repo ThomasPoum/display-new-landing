@@ -7,13 +7,16 @@ import { Container } from '@/components/Container'
 import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
-import screenshotHlps from '@/images/screenshots/hlps2.png'
-import screenshotEPM from '@/images/screenshots/epm2.png'
-import screenshotStats from '@/images/screenshots/stats2.png'
+// import screenshotHlps from '@/images/screenshots/hlps2.png'
+// import screenshotEPM from '@/images/screenshots/epm2.png'
+// import screenshotStats from '@/images/screenshots/stats2.png'
+import screenshotHlps from '@/images/screenshots/hlp.png'
+import screenshotEPM from '@/images/screenshots/emplacement_trip.png'
+import screenshotStats from '@/images/screenshots/stats7.png'
 
 const features = [
   {
-    name: 'Haut-le-pied',
+    name: 'Haut-le-pieds',
     summary: 'Grâce à la cartographie, déléguez le travail sur les HLPs.',
     description:
       'L’application construit pour vous votre dictionnaire des HLPs, avec des données toujours à jour et sans action spécifique de votre part.',
@@ -49,7 +52,7 @@ const features = [
   {
     name: 'EPM mode',
     summary:
-      'Trouvez le meilleur emplacement pour un segment.',
+      'L’application vous aide dans chacune de vos actions.',
     description:
       'Le robot est là pour vous faciliter le travail. Bénéficiez de sa puissance de calcul et de ses solutions en quelques fractions de seconde.',
     image: screenshotEPM,
@@ -77,9 +80,9 @@ const features = [
   {
     name: 'Statistiques',
     summary:
-      'Chaque modification sur le planning a un impact.',
+      'Soyez sûr de prendre les meilleures décisions.',
     description:
-      'Mesurer cet impact avec précision est vital pour la pertinence finale de votre travail. Le robot s’occupe de ces calculs à la volée.',
+      'Chaque action sur le planning a un impact. Le robot s’occupe de calculer les statistiques pertinentes et de les afficher tout au long de votre travail.',
     image: screenshotStats,
     icon: function ContactsIcon() {
       return (
@@ -222,7 +225,7 @@ export function SecondaryFeatures() {
             Déléguez au robot le travail du robot.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Sur un appel d’offre, beaucoup de tâches sont répétitives et à faible valeur ajoutée, laissez l’application vous en décharger.
+            Sur un appel d’offre, un certain nombre de tâches sont répétitives et à faible valeur ajoutée : l’application est là pour les prendre en charge.
           </p>
         </div>
         <FeaturesMobile />
