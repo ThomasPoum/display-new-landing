@@ -11,8 +11,8 @@ import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 import screenshotPlan4 from '@/images/screenshots/plan5.png'
 import screenshotFh1 from '@/images/screenshots/line.jpg'
-import screenshotCarto1 from '@/images/screenshots/carto9.jpg'
-import screenshotExport2 from '@/images/screenshots/export2.jpg'
+import screenshotCarto1 from '@/images/screenshots/carto7.png'
+import screenshotExport2 from '@/images/screenshots/stats10.png'
 
 
 const features = [
@@ -35,9 +35,9 @@ const features = [
     image: screenshotPlan4,
   },
   {
-    title: 'Export des données',
+    title: 'Statistiques et export',
     description:
-      'Exportez vos unités d\'oeuvres de façon standardisée en quelques instants pour les intégrer dans votre réponse.',
+      'Vos unités d’oeuvre en quelques instants. Exportez-les de façon standardisée pour les intégrer dans votre réponse.',
     image: screenshotExport2,
   },
   

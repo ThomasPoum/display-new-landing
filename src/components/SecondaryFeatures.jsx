@@ -10,8 +10,8 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 // import screenshotHlps from '@/images/screenshots/hlps2.png'
 // import screenshotEPM from '@/images/screenshots/epm2.png'
 // import screenshotStats from '@/images/screenshots/stats2.png'
-import screenshotHlps from '@/images/screenshots/hlp.png'
-import screenshotEPM from '@/images/screenshots/emplacement_trip.png'
+import screenshotHlps from '@/images/screenshots/hlp1.png'
+import screenshotEPM from '@/images/screenshots/tri3.png'
 import screenshotStats from '@/images/screenshots/stats7.png'
 
 const features = [
@@ -19,7 +19,7 @@ const features = [
     name: 'Haut-le-pieds',
     summary: 'Grâce à la cartographie, déléguez le travail sur les HLPs.',
     description:
-      'L’application construit pour vous votre dictionnaire des HLPs, avec des données toujours à jour et sans action spécifique de votre part.',
+      'L’application construit pour vous votre dictionnaire des HLPs, avec des données toujours à jour et sans action spécifique de votre part. Ensuite, éditez-les au besoin !',
     image: screenshotHlps,
     icon: function ReportingIcon() {
       let id = useId()

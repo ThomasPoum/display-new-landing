@@ -102,15 +102,15 @@ const faqs = [
       answer:
         'L’application est aujourd’hui en beta, c’est-à-dire qu’elle est en cours de développement et en est plutôt à une version initiale. Elle va donc évoluer fortement dans les prochaines semaines et mois. Des fonctions vont disparaître, d’autres être intégrées.',
     },
-    {
-      question: 'Combien coûte un abonnement à Display ?',
-      answer:
-        'Pour l’instant, ce point n’est pas défini. L’application est encore en beta et nous cherchons dans un premier temps à travailler avec nos utilisateurs cibles pour la rendre la plus pertinente possible.',
-    },
-    {
-      question: 'Je suis une startup du transport, existe-t-il un tarif spécifique ?',
-      answer: 'A date, il n’y a pas de tarif spécifique.',
-    },
+    // {
+    //   question: 'Combien coûte un abonnement à Display ?',
+    //   answer:
+    //     'Pour l’instant, ce point n’est pas défini. L’application est encore en beta et nous cherchons dans un premier temps à travailler avec nos utilisateurs cibles pour la rendre la plus pertinente possible.',
+    // },
+    // {
+    //   question: 'Je suis une startup du transport, existe-t-il un tarif spécifique ?',
+    //   answer: 'A date, il n’y a pas de tarif spécifique.',
+    // },
     {
       question: 'Je suis une entreprise technologique du transport, existe-t-il un moyen de se connecter à votre application via une API ?',
       answer:
