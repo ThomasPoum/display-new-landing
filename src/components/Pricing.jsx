@@ -46,7 +46,7 @@ function CheckIcon({ className }) {
   )
 }
 
-function Plan({ name, price, description, href, features, featured = false }) {
+function Plan({ name, price, condition, description, href, features, featured = false }) {
   return (
     <section
       className={clsx(
@@ -65,6 +65,10 @@ function Plan({ name, price, description, href, features, featured = false }) {
       </p>
       <p className="order-first font-display text-5xl font-light tracking-tight text-white">
         {price}
+      </p>
+      <p className={clsx('order-first  text-sm font-light tracking-tight italic', featured ? 'text-white' : 'text-slate-400'
+        )}>
+        {condition}
       </p>
       <ul
         role="list"
@@ -105,9 +109,9 @@ export function Pricing() {
     <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
       <span className="relative whitespace-nowrap">
         <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
-        <span className="relative">Une tarification transparente,</span>
+        <span className="relative">Une tarification ajustée</span>
       </span>{' '}
-      adaptée à chaque besoin.
+      à votre réalité.
     </h2>
     <p className="mt-4 text-lg text-slate-400">
       De la TPE à l’entreprise établie, nous avons l’offre qui vous correspond.
@@ -116,14 +120,15 @@ export function Pricing() {
   <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
     <Plan
       name="Starter"
-      price="200 €/mois"
-      description="Idéal pour les petites entreprises en pleine croissance."
+      price="400 €/mois"
+      condition="engagement de 12 mois minimum"
+      description="Idéal pour les petites entreprises ambitieuses."
       href="/register"
       features={[
         '1 utilisateur',
-        'Appels d’offre illimités',
-        'Parc de véhicules illimité',
-        'Nombre de conducteurs illimité',
+        '3 appels d’offre en simultanée',
+        'Parc de 50 véhicules maximum',
+        '50 conducteurs maximum',
         'Statistiques et exportation de données',
         'Assistance par mail (réponse en moins de 24h)',
       ]}
@@ -131,7 +136,8 @@ export function Pricing() {
     <Plan
       featured
       name="Business"
-      price="1 000 €/mois"
+      price="2 000 €/mois"
+      condition="engagement de 12 mois minimum"
       description="La solution pour les transporteurs en pleine expansion."
       href="/register"
       features={[

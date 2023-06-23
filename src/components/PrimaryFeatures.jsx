@@ -81,7 +81,7 @@ export function PrimaryFeatures() {
             Générez vos unités d’oeuvre de A à Z dans un outil simple et complet.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Tout ce qu’il vous faut pour répondre aux appels d’offre.
+            Tout ce qu’il vous faut au même endroit.
           </p>
         </div>
         <Tab.Group
