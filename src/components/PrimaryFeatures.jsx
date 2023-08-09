@@ -9,10 +9,10 @@ import screenshotExpenses from '@/images/screenshots/expenses.png'
 import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
-import screenshotPlan4 from '@/images/screenshots/plan5.png'
-import screenshotFh1 from '@/images/screenshots/line.jpg'
-import screenshotCarto1 from '@/images/screenshots/carto7.png'
-import screenshotExport2 from '@/images/screenshots/stats10.png'
+import screenshotPlan4 from '@/images/screenshots/new_plan_2.png'
+import screenshotFh1 from '@/images/screenshots/new_fh_1.png'
+import screenshotCarto1 from '@/images/screenshots/new_inner_carto_1.png'
+import screenshotExport2 from '@/images/screenshots/new_stats_1.png'
 
 
 const features = [
