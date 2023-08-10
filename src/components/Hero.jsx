@@ -52,6 +52,7 @@ export function Hero() {
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
+          target="_blank"
         >
           <svg
             aria-hidden="true"
@@ -65,15 +66,13 @@ export function Hero() {
 
       <div 
       className="mx-auto mt-20 max-w-7xl text-lg tracking-tight text-slate-700"
-        style={{
-          position: "relative", 
-          paddingBottom: "calc(53.73064289066166% + 41px)", 
-          height: "0", 
-          width: "100%"
-        }}
+
+
+        style={{position: "relative", paddingBottom: "calc(58.83280757097792% + 41px)", height: "0", width: "100%"}}
+
       >
-        <iframe 
-          src="https://demo.arcade.software/yC2A6BhYsnVokkBlO6M8?embed" 
+        {/* <iframe 
+          src="https://demo.arcade.software/jxffMoic754NufW84EiR?embed" 
           frameborder="0" 
           loading="lazy" 
           webkitallowfullscreen 
@@ -89,7 +88,12 @@ export function Hero() {
           }} 
           title="Display – Remportez des appels d'offres publics"
         >
-        </iframe>
+        </iframe> */}
+
+        <iframe src="https://demo.arcade.software/jxffMoic754NufW84EiR?embed" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen 
+        style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%", colorScheme: "light" }}
+        title="Display – Remportez des appels d'offres publics"></iframe>
+
       </div>
 
       {/* <div className="mt-36 lg:mt-44">

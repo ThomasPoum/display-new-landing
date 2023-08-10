@@ -12,7 +12,7 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 import screenshotPlan4 from '@/images/screenshots/new_plan_2.png'
 import screenshotFh1 from '@/images/screenshots/new_fh_1.png'
 import screenshotCarto1 from '@/images/screenshots/new_inner_carto_1.png'
-import screenshotExport2 from '@/images/screenshots/new_stats_1.png'
+import screenshotExport2 from '@/images/screenshots/new_stats_3.png'
 
 
 const features = [

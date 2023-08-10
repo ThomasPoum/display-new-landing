@@ -10,9 +10,9 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 // import screenshotHlps from '@/images/screenshots/hlps2.png'
 // import screenshotEPM from '@/images/screenshots/epm2.png'
 // import screenshotStats from '@/images/screenshots/stats2.png'
-import screenshotHlps from '@/images/screenshots/hlp1.png'
-import screenshotEPM from '@/images/screenshots/tri3.png'
-import screenshotStats from '@/images/screenshots/stats7.png'
+import screenshotHlps from '@/images/screenshots/new_hlp_1.png'
+import screenshotEPM from '@/images/screenshots/new_epm_2.png'
+import screenshotStats from '@/images/screenshots/new_details_2.png'
 
 const features = [
   {
