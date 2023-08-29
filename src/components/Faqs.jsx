@@ -45,7 +45,7 @@ const faqs = [
     },
     {
       question: 'Puis-je répondre à plusieurs appels d’offre simultanément ?',
-      answer: 'Oui, il n’y a pas de restriction sur le nombre d’appels d’offre en simultanée.',
+      answer: 'Oui, il n’y a pas de restriction sur le nombre d’appels d’offre en simultanée, sauf pour l’offre Starter',
     },
 
   ],
@@ -54,7 +54,7 @@ const faqs = [
     {
       question: 'Suis-je limité en nombre de véhicules ou de conducteurs par appel d’offre ?',
       answer:
-        'Non, il n’existe pas de limitation de ce type.',
+        'Non, il n’existe pas de limitation de ce type pour la version Business et la version Enterprise. Pour la version Starter, vous êtes limité à 50 vehicules et 50 conducteurs.',
     },
     {
       question: 'J’ai des règles de coupures ou autres spécifiques à mon entreprise, est-il possible de les prendre en compte ?',
@@ -77,7 +77,7 @@ const faqs = [
     },
     {
       question: 'Est-il possible de se faire assister par vos équipes dans la réponse à appel d’offre ?',
-      answer: 'Non, nous ne proposons pas d’offre d’accompagnement.',
+      answer: 'Nous proposons des offres d’accompagnement. Contactez-nous pour en savoir plus.',
     },
     {
       question: 'Où sont hébergés mes données ?',
@@ -128,7 +128,7 @@ const faqs = [
     {
       question: 'Votre projet m’intéresse, comment participer ?',
       answer:
-        'Connectez-nous par email au xxx@xxxx.xx afin de faire connaissance.',
+        'Connectez-nous par email au thomas.poumarede@gmail.com afin de faire connaissance.',
     },
   ],
 ]
