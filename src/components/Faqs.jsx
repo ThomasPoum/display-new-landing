@@ -14,11 +14,11 @@ const faqs = [
       question: 'Combien de temps dois-je prévoir pour une démonstration ?',
       answer: 'Le temps de démonstration est variable. Une démonstration se déroule en général en 3 temps : 1) discussion sur vos méthodes actuelles 2) démonstration de l’outil 3) discussion ouverte sur l’outil.',
     },
-    {
-      question: 'Pourrai-je avoir, à l’issue de la présentation, des codes d’accès pour essayer l’application de mon côté ?',
-      answer:
-        'Bien sûr, après la démonstration et si cela vous intéresse, nous vous transmettrons des identifiants d’accès en mode "bac à sable", avec plusieurs réseaux de test et bien évidemment la possibilité d’y intégrer vos réseaux réels et futurs.',
-    },
+    // {
+    //   question: 'Pourrai-je avoir, à l’issue de la présentation, des codes d’accès pour essayer l’application de mon côté ?',
+    //   answer:
+    //     'Bien sûr, après la démonstration et si cela vous intéresse, nous vous transmettrons des identifiants d’accès en mode "bac à sable", avec plusieurs réseaux de test et bien évidemment la possibilité d’y intégrer vos réseaux réels et futurs.',
+    // },
 
     {
       question: 'Qui peut utiliser cette application ?',
@@ -84,15 +84,15 @@ const faqs = [
       answer:
         'Vos données sont hébergées sont un serveur français situé dans la région parisienne.',
     },
+    
+  ],
+  [
+    
     {
       question: 'Puis-je récupérer mes données si je décide de ne plus utiliser la plateforme ?',
       answer:
         'Toutes les données que vous produisez sur notre application vous appartiennent et sont disponibles à tout moment en téléchargement.',
     },
-
-  ],
-  [
-
     {
       question: 'Si je décide de quitter la plateforme, mes données sont-elles supprimées ?',
       answer: 'Si vous quittez la plateforme, et à réception de votre demande, nous supprimons définitivement l’intégralité de vos données de nos serveurs.',
@@ -100,7 +100,7 @@ const faqs = [
     {
       question: 'L’application est-elle appelée à évoluer ?',
       answer:
-        'L’application est aujourd’hui en beta, c’est-à-dire qu’elle est en cours de développement et en est plutôt à une version initiale. Elle va donc évoluer fortement dans les prochaines semaines et mois. Des fonctions vont disparaître, d’autres être intégrées.',
+        'L’application est aujourd’hui en beta, c’est-à-dire qu’elle est en cours de développement et en est plutôt à une version initiale. Elle va donc évoluer dans les prochaines semaines et mois. Des fonctions vont disparaître, d’autres être intégrées.',
     },
     // {
     //   question: 'Combien coûte un abonnement à Display ?',
@@ -111,11 +111,11 @@ const faqs = [
     //   question: 'Je suis une startup du transport, existe-t-il un tarif spécifique ?',
     //   answer: 'A date, il n’y a pas de tarif spécifique.',
     // },
-    {
-      question: 'Je suis une entreprise technologique du transport, existe-t-il un moyen de se connecter à votre application via une API ?',
-      answer:
-        'Non, il n’existe pas encore d’API.',
-    },
+    // {
+    //   question: 'Je suis une entreprise technologique du transport, existe-t-il un moyen de se connecter à votre application via une API ?',
+    //   answer:
+    //     'Non, il n’existe pas encore d’API.',
+    // },
     {
       question: 'Mes données sont-elles récupérées à des fins d’analyse ?',
       answer:
