@@ -28,7 +28,8 @@ export default function Home() {
         <SecondaryFeatures />
         <CallToAction />
         <OneTestimonial />
-        <Pricing />
+        {/* <Pricing /> */}
+        <CallToAction />
         <Faqs />
       </main>
       <Footer />
