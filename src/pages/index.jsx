@@ -18,7 +18,7 @@ export default function Home() {
         <title>Display - Gagnez votre marché public</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Répondez aux appels d'offres sereinement"
         />
       </Head>
       <Header />
